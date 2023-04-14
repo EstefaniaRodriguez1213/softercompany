@@ -1,0 +1,33 @@
+.btn{
+    width: 200px;
+    text-align: center;
+    background-color: #A4826D;
+    color: #fff;
+    font-weight: bold;
+    padding: 1em 1em 1em;
+    line-height: 1;
+    border-radius: 1em;
+    border-color: #A4826D;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+h2{
+   color:#986C4A ;
+}
+
+.div{
+    background-image: url('../../../public/img/banner.png');
+    min-height: 100vh;
+}
+.divCreadores{
+    padding-top: 27%;
+    padding-left: 20%;
+    margin:0px auto;
+    text-align: center;
+}
+.row{
+    width: 50%;
+    padding-left: 6%;
+}
+
+

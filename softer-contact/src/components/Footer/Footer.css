@@ -1,0 +1,10 @@
+.navFooter{
+    background-color: rgba(10, 10, 10, 0.849);
+    min-height: 25vh;
+    bottom:0;
+    width: 100%
+}
+.col{
+    color: beige;
+    font-size: 100px;
+}

@@ -1,0 +1,22 @@
+.divEducatiom{
+    background-image: url('../../../public/img/div.png');
+    height:100%;
+    width:100%;
+    margin:0px auto;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 2%;
+}
+.btnComprar{
+    width: 130px;
+    text-align: center;
+    background-color: #A4826D;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em ;
+    line-height: 1;
+    border-radius: 1em;
+    border-color: #A4826D;
+    text-decoration: none;
+    font-size: 1.25rem;
+}

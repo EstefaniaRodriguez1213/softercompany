@@ -1,0 +1,95 @@
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 400px;
+    position: relative;
+    margin-left: 150px;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #e8e8e8;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #e8e8e8;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: #A4826D;
+  }
+
+.btnEnviar{
+    width: 100px;
+    text-align: center;
+    background-color: #A4826D;
+    color: #fff;
+    font-weight: bold;
+    padding: 1em 1em 1em;
+    line-height: 1;
+    border-radius: 1em;
+    border-color: #A4826D;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.anchoMensaje{
+    height: 120px;
+}
+.principal {
+    width: 50%;
+    float: left;
+   }
+.lateral {
+    padding-top: 4%;
+    width: 50%; 
+    float:right;
+    margin-left: 0 auto;
+	margin-right: auto;
+}
+.pad{
+    padding: 2%;
+    padding-left: 10%;
+}
+
+.divContact{
+    background-image: url('../../../public/img/div.png');
+    min-height: 100vh;
+    padding-top: 2%;
+    text-align: center;
+}
+.navFooter{
+  background-color: rgba(10, 10, 10, 0.877);
+  min-height: 25vh;
+  bottom:0;
+  width: 100%
+}
+.col{
+  color: beige;
+  font-size: 100px;
+}
+.lateralAboutImageContact{
+  width: 100%; 
+        float: left;
+        text-align: center;
+        border-radius: 55%;
+}
